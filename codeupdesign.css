@@ -1,0 +1,40 @@
+/*body {*/
+    /*background: red;*/
+/*}*/
+
+/*body {*/
+/*    background: #f0f0f0;*/
+/*    !*color: black;*!*/
+/*}*/
+
+/*.container {*/
+/*    margin-top: 100px;*/
+/*    padding-left: 0;*/
+/*    padding-right: 0;*/
+/*}*/
+
+
+
+/*.logo-bar {*/
+/*    background: white;*/
+/*    background-image: url("logo.png");*/
+
+
+/*}*/
+.container {
+    margin-top: 50px;
+}
+
+ .topofpage {
+    background-image: url("logo.png");
+     background-size: cover;
+    height: 105px;
+    width: 105px;
+    margin: auto;
+}
+
+ h2 {
+     height: 48px;
+     margin: auto;
+
+ }
