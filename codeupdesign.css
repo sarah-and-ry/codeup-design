@@ -1,40 +1,129 @@
-/*body {*/
-    /*background: red;*/
-/*}*/
 
-/*body {*/
-/*    background: #f0f0f0;*/
-/*    !*color: black;*!*/
-/*}*/
-
-/*.container {*/
-/*    margin-top: 100px;*/
-/*    padding-left: 0;*/
-/*    padding-right: 0;*/
-/*}*/
-
-
-
-/*.logo-bar {*/
-/*    background: white;*/
-/*    background-image: url("logo.png");*/
-
-
-/*}*/
-.container {
-    margin-top: 50px;
+body {
+    background: #f0f0f0;
+    margin: 0;
+    padding: 0;
 }
 
- .topofpage {
+.container {
+    margin: 50px 0 0 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo {
     background-image: url("logo.png");
-     background-size: cover;
+    background-size: cover;
     height: 105px;
     width: 105px;
     margin: auto;
 }
 
- h2 {
-     height: 48px;
-     margin: auto;
+h2 {
+    height: 48px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Abel', sans-serif;
 
- }
+}
+
+.nav-links {
+    list-style-type: none;
+    font-family: 'Abel', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    font-size: .75em;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.nav-links a {
+    color: black;
+}
+
+.main-text h1 {
+    height: 64px;
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.main-text h2 {
+    height: 32px;
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.circles {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 40px;
+}
+
+
+.circles div {
+    height: 105px;
+    width: 105px;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.red {
+    background-color: #E6563B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange {
+    background-color: #EB9D3A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green {
+    background-color: #7CB06C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teal {
+    background-color: #00ABA9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h5 {
+    font-family: 'Abel', sans-serif;
+    font-size: .75em;
+    text-align: center;
+}
+
+.ipad {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.photos img {
+    width: 80%;
+    border: 5px solid #E6E6E6;
+    border-radius: 10px;
+}
+
