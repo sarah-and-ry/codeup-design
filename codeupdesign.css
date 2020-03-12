@@ -164,7 +164,7 @@ li {
     margin: 0 2px;
 }
 
-#i-red {
+.i-red {
     background-color: #E6563B;
     border-radius: 50%;
     display: flex;
@@ -172,7 +172,7 @@ li {
     align-items: center;
 }
 
-#i-orange {
+.i-orange {
     background-color: #EB9D3A;
     border-radius: 50%;
     display: flex;
@@ -180,7 +180,7 @@ li {
     align-items: center;
 }
 
-#i-green {
+.i-green {
     background-color: #7CB06C;
     border-radius: 50%;
     display: flex;
@@ -188,7 +188,7 @@ li {
     align-items: center;
 }
 
-#i-teal {
+.i-teal {
     background-color: #00ABA9;
     border-radius: 50%;
     display: flex;
