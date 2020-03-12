@@ -5,7 +5,7 @@ body {
     padding: 0;
 }
 
-.container {
+.main-content {
     margin: 50px 0 0 0;
     padding: 0;
     height: 100vh;
@@ -14,6 +14,7 @@ body {
 
 main {
     background: white;
+    width: 100vw;
 }
 .logo {
     background-image: url("logo.png");
@@ -122,20 +123,18 @@ h5 {
 }
 
 .ipad {
-    display: flex;
-    justify-content: center;
     margin-top: 40px;
 }
 
-.photos img {
-    width: 80%;
+img.col-10.offset-1 {
     border: 5px solid #E6E6E6;
     border-radius: 10px;
+    padding: 0;
 }
 
 .bottomofpage {
     display: flex;
-    margin-right: auto;
+    justify-content: space-between;
 }
 
 li {
