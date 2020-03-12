@@ -19,6 +19,7 @@ main {
     position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .logo {
@@ -26,7 +27,6 @@ main {
     background-size: cover;
     height: 105px;
     width: 105px;
-    /*margin: auto;*/
     position: absolute;
     z-index: 1;
     top: -20px;
@@ -40,6 +40,14 @@ h2 {
 
 }
 
+#small-nav li:nth-child(2) {
+    margin-right: 75px;
+}
+
+#small-nav li:nth-child(3){
+    margin-left: 75px;
+}
+
 .nav-links {
     list-style-type: none;
     font-family: 'Abel', sans-serif;
@@ -47,6 +55,7 @@ h2 {
     justify-content: center;
     padding: 0;
     font-size: .75em;
+    margin-bottom: 0;
 }
 
 .nav-links li {
@@ -71,14 +80,11 @@ h2 {
     font-family: 'Anton', sans-serif;
     font-weight: bolder;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .circles {
-    /*display: inline-grid;*/
-    /*grid-template-columns: 1fr 1fr;*/
-    /*grid-template-rows: 1fr 1fr;*/
-    padding: 40px;
+    padding: 40px 40px 0 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -124,6 +130,11 @@ h2 {
     align-items: center;
 }
 
+hr {
+    width: 70%;
+    margin-bottom: 30px;
+}
+
 h5 {
     font-family: 'Abel', sans-serif;
     font-size: .75em;
@@ -134,7 +145,7 @@ h5 {
     margin-top: 40px;
 }
 
-img.col-10.offset-1 {
+div.row.photos img {
     border: 5px solid #E6E6E6;
     border-radius: 10px;
     padding: 0;
@@ -147,7 +158,6 @@ img.col-10.offset-1 {
 
 li {
     list-style: none;
-    /*display: inline-block;*/
 }
 
 .icons {
@@ -159,7 +169,6 @@ li {
     height: 18px;
     width: 18px;
     font-size: 0.5em;
-    /*font-weight: bold;*/
     font-family: 'Anton', sans-serif;
     margin: 0 2px;
 }
@@ -196,7 +205,3 @@ li {
     align-items: center;
 }
 
-/*.photos {*/
-/*    display: flex;*/
-/*    justify-content: space-evenly;*/
-/*}*/
