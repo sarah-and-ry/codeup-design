@@ -12,6 +12,9 @@ body {
     width: 100vw;
 }
 
+main {
+    background: white;
+}
 .logo {
     background-image: url("logo.png");
     background-size: cover;
@@ -63,10 +66,13 @@ h2 {
 }
 
 .circles {
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    /*display: inline-grid;*/
+    /*grid-template-columns: 1fr 1fr;*/
+    /*grid-template-rows: 1fr 1fr;*/
     padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
@@ -125,5 +131,15 @@ h5 {
     width: 80%;
     border: 5px solid #E6E6E6;
     border-radius: 10px;
+}
+
+.bottomofpage {
+    display: flex;
+    margin-right: auto;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
 }
 
