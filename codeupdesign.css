@@ -15,13 +15,21 @@ body {
 main {
     background: white;
     width: 100vw;
+    height: 65px;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
+
 .logo {
     background-image: url("logo.png");
     background-size: cover;
     height: 105px;
     width: 105px;
-    margin: auto;
+    /*margin: auto;*/
+    position: absolute;
+    z-index: 1;
+    top: -20px;
 }
 
 h2 {
@@ -139,6 +147,51 @@ img.col-10.offset-1 {
 
 li {
     list-style: none;
-    display: inline-block;
+    /*display: inline-block;*/
 }
 
+.icons {
+    display: flex;
+
+}
+
+.icons li {
+    height: 18px;
+    width: 18px;
+    font-size: 0.5em;
+    /*font-weight: bold;*/
+    font-family: 'Anton', sans-serif;
+    margin: 0 2px;
+}
+
+#i-red {
+    background-color: #E6563B;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#i-orange {
+    background-color: #EB9D3A;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#i-green {
+    background-color: #7CB06C;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#i-teal {
+    background-color: #00ABA9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
