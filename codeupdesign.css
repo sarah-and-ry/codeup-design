@@ -13,7 +13,6 @@ body {
 }
 
 
-
 nav {
     background: white;
     width: 100vw;
@@ -163,11 +162,13 @@ hr {
     margin-bottom: 30px;
 }
 
+
 h5 {
     font-family: 'Abel', sans-serif;
     font-size: .75em;
     text-align: center;
 }
+
 
 .photos {
     margin-top: 40px;
