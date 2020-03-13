@@ -12,6 +12,8 @@ body {
     width: 100vw;
 }
 
+
+
 nav {
     background: white;
     width: 100vw;
@@ -22,7 +24,12 @@ nav {
     align-items: center;
 }
 
-.logo {
+#med-nav {
+    display: flex;
+    align-items: center;
+}
+
+#logo-small {
     background-image: url("logo.png");
     background-size: cover;
     height: 105px;
@@ -32,12 +39,33 @@ nav {
     top: -20px;
 }
 
-h2 {
+#logo-med {
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 105px;
+    width: 105px;
+    /*position: absolute;*/
+    z-index: 1;
+    top: -20px;
+}
+
+#codeup-gray {
     height: 48px;
     text-align: center;
     margin-top: 20px;
     font-family: 'Abel', sans-serif;
 
+}
+
+#codeup-white {
+    height: 48px;
+    font-family: 'Abel', sans-serif;
+
+}
+
+#codeup-white h2 {
+    margin-bottom: 0;
+    padding-right: 170px;
 }
 
 #small-nav li:nth-child(2) {
