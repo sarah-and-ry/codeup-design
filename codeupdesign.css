@@ -22,7 +22,7 @@ nav {
     align-items: center;
 }
 
-#logo-med {
+.logo {
     background-image: url("logo.png");
     background-size: cover;
     height: 105px;
@@ -32,22 +32,7 @@ nav {
     top: -20px;
 }
 
-#logo {
-    background-image: url("logo.png");
-    background-size: cover;
-    height: 105px;
-    width: 105px;
-    position: absolute;
-    z-index: 1;
-    top: -20px;
-}
-
-#codeup-white {
-    height: 48px;
-    font-family: 'Abel', sans-serif;
-}
-
-#codeup-gray {
+h2 {
     height: 48px;
     text-align: center;
     margin-top: 20px;
@@ -219,4 +204,3 @@ li {
     justify-content: center;
     align-items: center;
 }
-
